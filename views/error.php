@@ -1,0 +1,1 @@
+Here the is error page of <b>CleanMVC</b>.

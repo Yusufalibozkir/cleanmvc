@@ -1,0 +1,1 @@
+Here is the index page of <b>CleanMVC</b>. You can change that of course!
