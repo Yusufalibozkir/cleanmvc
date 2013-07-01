@@ -7,12 +7,13 @@
 	 * execute DATABASE_ON defined
 	 */
 	
-	if(DATABASE_ON == true)
+	if(DATABASE_ON == true) {
 		require('library/model.php');
-	elseif(DATABASE_ON == false)
+	} elseif(DATABASE_ON == false) {
 		// Don't do anything! Because he/she don't want to use database
-	else
+	} else {
 		die('You must look main-cofing.php and DATABASE_ON defined data!');
+	}
 	
 	/*
 	 * execute $helpers
