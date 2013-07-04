@@ -1,11 +1,14 @@
 <?php
 
-	class model {
-		public $db;
-		
-		public function __construct() {
-			require('library/database.php');
-			$this->db = new Database();
-		}
-		
-	}
+class model {
+
+    public $db;
+
+    function __construct() {
+        require_once 'library/database.php';
+        $this->db = new Database();
+    }
+
+}
+
+?>
