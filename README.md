@@ -1,4 +1,12 @@
 cleanmvc
 ========
 
-CleanMVC is the fastest MVC system ever in my opinion. V1 is very simple but you can use this version of CleanMVC for your simple projects.
+CleanMVC is the fastest MVC system ever in my opinion.
+
+Changes:
+
+V1.1 ;
+ CleanMVC v1.1 published.
+
+V1.0 ;
+ CleanMVC published.
