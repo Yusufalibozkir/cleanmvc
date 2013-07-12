@@ -65,6 +65,7 @@ define('MEM_PORT', '11211');
  * values:
  * true  -> on
  * false -> off
+ *
  */
 
 define('IS_CACHE_ON', false);
