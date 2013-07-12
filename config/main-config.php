@@ -52,4 +52,20 @@ $helpers = array();
  */
 
 $suffix = array();
+
+/*
+ * Define a host and port for Memcache!
+ */
+
+define('MEM_HOST', 'localhost');
+define('MEM_PORT', '11211');
+
+/*
+ * Is Caching On Automaticly?
+ * values:
+ * true  -> on
+ * false -> off
+ */
+
+define('IS_CACHE_ON', false);
 ?>
