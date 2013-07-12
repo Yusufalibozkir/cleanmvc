@@ -4,7 +4,7 @@
  * Don't forget to add a slash (/)!
  * This is the URL of site!
  */
-define('SITE_URL', 'abc');
+define('SITE_URL', '');
 
 /*
  * This is the controller selector that make controller index!
