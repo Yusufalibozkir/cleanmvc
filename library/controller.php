@@ -19,7 +19,7 @@ class controller {
         $model_file = 'models/' . $model_name . '.php';
         if (file_exists($model_file)) {
             require_once $model_file;
-            $this->model = new $model_name();
+            $this->model->$model_name = new $model_name();
         }
     }
 
