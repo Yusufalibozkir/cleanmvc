@@ -6,10 +6,14 @@ class controller {
     public $view;
     public $cache;
 
-    public function __construct() {
+    final public function __construct() {
         $this->view = new view();
         if (IS_CACHE_ON) {
             $this->load_cache();
+        }
+        
+        if (method_exists($this, 'oncreate')) {
+            call_user_func(array($this, 'oncreate'), func_get_args());
         }
     }
 
@@ -29,5 +33,3 @@ class controller {
     }
 
 }
-
-?>
