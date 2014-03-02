@@ -12,17 +12,14 @@ class view {
             // view nesnesine doğrudan erişemesin.
             call_user_func(function(){
                 
-                extract(func_get_args(1));
+                extract((array)func_get_args(1));
                 require func_get_args(0);
                 
             }, $view_path, $data);
 
         } else {
             // add here a view file that contain error about rendering!!
-            echo 'there is not view that you want!';
+            throw new Exception('there is not view that you want!');
         }
     }
-
 }
-
-?>
