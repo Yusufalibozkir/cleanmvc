@@ -1,15 +1,9 @@
 <?php
 
-class error extends controller {
-
-    function __construct() {
-        parent::__construct();
-    }
+class error extends controller
+{
 
     function index() {
         $this->view->render('error');
     }
-
 }
-
-?>
