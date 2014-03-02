@@ -1,15 +1,14 @@
 <?php
 
-class index extends controller {
+class index extends controller
+{
+    protected $file;
 
-    function __construct() {
-        parent::__construct();
+    protected function oncreate() {
+        $this->file = 'index';
     }
 
     function index() {
-        $this->view->render('index');
+        $this->view->render($this->file);
     }
-
 }
-
-?>
